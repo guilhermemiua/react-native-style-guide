@@ -16,7 +16,7 @@
 
 ## Create .eslintrc file in the root directory and add the following code
 
-`{ "extends": [ "airbnb", "prettier", "prettier/react" ], "rules": { "react/jsx-filename-extension": [ 1, { "extensions": [ ".js", ".jsx" ] } ], "prettier/prettier": [ "error", { "trailingComma": "es5", "singleQuote": true, "printWidth": 100 } ] }, "plugins": [ "prettier" ] }`
+`{ "extends": [ "airbnb", "prettier", "prettier/react" ], "rules": { "react/prop-types": 0, "react/jsx-filename-extension": [ 1, { "extensions": [ ".js", ".jsx" ] } ], "prettier/prettier": [ "error", { "trailingComma": "es5", "singleQuote": true, "printWidth": 100 } ] }, "plugins": [ "prettier" ] }`
 
 ## Add following lines to user settings
 
